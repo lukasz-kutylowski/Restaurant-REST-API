@@ -11,9 +11,9 @@ This application create order for given data: client and products ids, and creat
 
 ## Example Postman JSON testing
 
-###Add some products:
-####POST
-####/product
+### Add some products:
+#### POST
+#### /product
 {
     "name" : "Tyskie",
     "price" : 5
