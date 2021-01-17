@@ -19,18 +19,18 @@ This application create order for given data: client and products ids, and creat
     "price" : 5
 }
 
-###Add some clients:
-####POST
-####/client
+### Add some clients:
+#### POST
+#### /client
 {
     "name" : "Jan",
     "surname" : "Kowalski",
     "nip" : "1234567890"
 }
 
-###Add order (ids - products id):
-####POST
-####/order
+### Add order (ids - products id):
+#### POST
+#### /order
 {
     "ids" : [
       1, 2  
@@ -40,6 +40,6 @@ This application create order for given data: client and products ids, and creat
     "nip" : "1234567890"
 }
 
-###Generate invocie for given order id:
-####GET
+### Generate invocie for given order id:
+#### GET
 /invoice/{order_id}
